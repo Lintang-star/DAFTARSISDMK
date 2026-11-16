@@ -1,0 +1,14 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Helpdesk · SISDMK Kab. Bogor</title><link rel="stylesheet" href="assets/style.css"></head><body data-page="helpdesk"><div id="nav"></div><main>
+<h1>Helpdesk Pendaftaran Akun</h1>
+<div class="grid"><div class="card"><h3>WhatsApp Info</h3><p>Pertanyaan umum dan kendala pemohon.</p><a class="btn" id="w1" href="#">Chat info</a></div><div class="card"><h3>WhatsApp Admin SDMK</h3><p>Data tidak valid atau tidak sesuai.</p><a class="btn" id="w2" href="#">Chat admin</a></div><div class="card"><h3>Verifikasi Asisten</h3><p>Update ulang pekerjaan dan isi formulir verifikasi.</p><a class="btn" id="w3" target="_blank" rel="noopener" href="#">Buka formulir</a></div></div>
+<h2>Pertanyaan umum</h2>
+<details><summary>Berapa lama akun jadi?</summary><p>Akun SISDMK jadi dalam 1 hari. Akun tampil di SatuSehat 1x24 jam setelah pendaftaran dan aktivasi.</p></details>
+<details><summary>Nama pemohon berbeda dengan nama faskes</summary><p>Pengajuan tidak dapat diproses. Hubungi WhatsApp info untuk penyesuaian.</p></details>
+<details><summary>Data saya dinyatakan tidak sesuai/tidak valid</summary><p>Periksa kembali data pengajuan, lalu hubungi admin SDMK lewat WhatsApp.</p></details>
+<details><summary>Bagaimana verifikasi tenaga Asisten?</summary><p>Update ulang pekerjaan di SatuSehat SDMK, lalu isi formulir verifikasi Asisten (tombol di atas).</p></details>
+<details><summary>Praktik mandiri: pekerjaan tidak sesuai</summary><p>Ulangi pengisian pekerjaan pada SatuSehat SDMK dan sesuaikan dengan nama faskes praktik mandirinya.</p></details>
+<details><summary>Belum punya kode regfas</summary><p>Lihat <a href="info.html#regfas">panduan registrasi fasyankes</a>.</p></details>
+<details><summary>Sudah login, apa yang harus dilakukan?</summary><p>Segera ganti password awal setelah login pertama.</p></details>
+<form id="fh" class="card" style="margin-top:20px"><h2>Form keluhan SatuSehat SDMK / SISDMK</h2><div class="f"><label>Nama<input name="nama" required></label><label>Profesi<input name="profesi" required></label><label>NIK<input name="nik" required pattern="\d{16}" inputmode="numeric" maxlength="16"></label><label>STR<input name="str"></label><label>SIP<input name="sip"></label><label>Faskes<input name="faskes" required></label><label>No. WhatsApp<input name="wa" type="tel" required></label><label class="full">Keluhan<textarea name="keluhan" rows="3" required></textarea></label></div><p class="m">Data pribadi hanya dipakai untuk menangani keluhan Anda.</p><button class="btn">Kirim Keluhan</button><div id="hr"></div></form>
+<script>document.addEventListener("DOMContentLoaded",()=>{});</script>
+</main><div id="foot"></div><script src="assets/config.js"></script><script src="assets/app.js"></script></body></html>
